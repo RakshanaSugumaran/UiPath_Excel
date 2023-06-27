@@ -1,0 +1,13 @@
+﻿Reading data from two Excel files that have different extensions.
+
+1. Use read range activitiy - Workbook activity(.xlsx)
+2. Use read range activiity inside Excel Application Scope activity(.xls)
+3. Use Filter Table activity to filter the founding year after 2005
+	a. Filter Table activity for dt_Range01(Data1 file)
+	b. Filter Table activity for dt_Range02(Data2 file)
+4. Use build data table activity to create a datatable
+5. Using for each row in data table loop thorugh each data table variable seperately
+	a. Add arrayitem method which converts each row into an array
+	b. Use the output data table from build datatable activity
+6. Excel Application Scope activity --> write range activity to write the dt_FilteredCompnies data table to th output excel file
+	

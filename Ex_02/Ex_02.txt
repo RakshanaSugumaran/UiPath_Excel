@@ -1,0 +1,7 @@
+﻿Filtering data from a database and exporting the results into a new file
+
+We have an Excel file containing a list of employees, which contains columns for Name, Age, Work Domain, Current job, and Salary. It has around 300 entries.  
+
+1. Add  a workbook- read range activity to extract data from excel to data table
+2. Filter data table activity- to filter data from the extracted dtEmpDetails data table based on Age<30 and income>1000 ; save the filtered data to the same data table
+3. Build data table activity- to build a data table according to the requirement(Name,Age,Income) and name the data table as dt_Achieversdetails
